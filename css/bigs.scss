@@ -226,8 +226,15 @@ body{
         }
 
        .btn{
-        
+      
+         .but{
+            overflow: hidden;
+            position: relative;
+
+
+         }
          a{
+            
             border: 2px solid #ffc107;
             padding: 8px 35px;
             font: 1em 'Londrina Solid';
@@ -236,7 +243,7 @@ body{
             text-transform: uppercase;
             color: #fff;
             position: relative;
-            z-index: 1;
+            z-index: 99;
             margin-top: 10px;
 
             &::after{
@@ -274,6 +281,7 @@ body{
         width: 33em;
         height: 22em;
         background-color: #ffc107;
+
         position: absolute;
         top: 3em;
         left: -2em;
