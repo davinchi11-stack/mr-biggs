@@ -16,9 +16,12 @@
 <body>
 
     <div class="container">
+        <!-- <div class="over">
         <div class="overlay first"></div>
         <div class="overlay two"></div>
         <div class="overlay third"></div> 
+        </div> -->
+        
          <img src="/assets/rings.png" alt="" class="ring">
 
         <header>
@@ -76,10 +79,8 @@
                         2,136V120h39.61l12.49,16Zm112,50.75L156.88,152H184Z"></path></svg></span>4500.00
             </h2>
             </div>
-                <div class="btn">
-                     <div class="but" >
+                <div class="btn">   
                         <a href="#">add to cart</a>
-                     </div>
                 </div> 
             </div> 
 
@@ -107,26 +108,26 @@
 <!-- <script src="/bigs.js"></script> -->
 
  <script>
-        TweenMax.to(".first",{
-            duration:1.5,
-            delay:0.1,
-            y:"-100%",
-            ease:Expo.easeInOut
-        })
+        // TweenMax.to(".first",{
+        //     duration:1.5,
+        //     delay:0.1,
+        //     y:"-100%",
+        //     ease:Expo.easeInOut
+        // })
 
-        TweenMax.to(".two",{
-            duration:1.5,
-            delay:0.3,
-            y:"-100%",
-            ease:Expo.easeInOut
-        })
+        // TweenMax.to(".two",{
+        //     duration:1.5,
+        //     delay:0.3,
+        //     y:"-100%",
+        //     ease:Expo.easeInOut
+        // })
 
-        TweenMax.to(".third",{
-            duration:1.5,
-            delay:0.7,
-            y:"-100%",
-            ease:Expo.easeInOut
-        })
+        // TweenMax.to(".third",{
+        //     duration:1.5,
+        //     delay:0.7,
+        //     y:"-100%",
+        //     ease:Expo.easeInOut
+        // })
 
         TweenMax.from(".logo",{
             duration:1.5,
@@ -179,9 +180,10 @@
 
         TweenMax.from(".product .btn",{
             duration:1.5,
-            delay:2.5,
-            y:"300",
-            ease:"bounce"
+            delay:2.8,
+            // y:"300",
+            opacity: 0,
+            ease:Expo.easeInOut
         })
 
         TweenMax.from(".products-display .rice",{
